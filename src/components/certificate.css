@@ -1,0 +1,64 @@
+.certificate-container {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.certificate {
+  border: 2px solid #000;
+  padding: 30px;
+  max-width: 800px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-body h2 {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+
+.logo-right {
+  width: 100px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 27px;
+  top: 20px;
+  right: 20px;
+}
+
+/* .profile-img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+} */
+
+.content {
+  margin-top: 63px;
+}
+
+.content p {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.content b {
+  font-weight: bold;
+  text-decoration: underline; /* Optional if you want to underline the data */
+}
+
+.right {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.right p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
